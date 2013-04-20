@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Extension-Name: snooper
+Class-Manager: org.nlogo.extensions.snooper.SnooperExtension
+NetLogo-Extension-API-Version: 5.0
