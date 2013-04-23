@@ -5,7 +5,8 @@ import
 
 class SnooperExtension extends DefaultClassManager {
   def load(primitiveManager: PrimitiveManager) {
-    primitiveManager.addPrimitive("local-ip", SnoopLocalIP)
+    primitiveManager.addPrimitive("local-ip",    SnoopLocalIP)
+    primitiveManager.addPrimitive("hubnet-port", SnoopHubNetPort)
   }
 }
 
