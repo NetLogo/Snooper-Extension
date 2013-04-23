@@ -2,8 +2,6 @@
 
 This extension allows you to detect your local IP address.
 
-__Note__: On Linux versions of Java 6 or less, this extension will only return the IP of the loopback interface.
-
 ## Building
 
 Use the NETLOGO environment variable to tell the Makefile which NetLogoLite.jar to compile against.  For example:
