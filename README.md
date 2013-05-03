@@ -1,6 +1,6 @@
 # NetLogo Snooper Extension
 
-This extension allows you to detect your local IP address.
+This extension allows you to detect local network configuration info (i.e. local IP address, HubNet port).
 
 ## Building
 
