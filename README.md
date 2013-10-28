@@ -4,12 +4,7 @@ This extension allows you to detect local network configuration info (i.e. local
 
 ## Building
 
-Use the NETLOGO environment variable to tell the Makefile which NetLogoLite.jar to compile against.  For example:
-
-    NETLOGO=/Applications/NetLogo\\\ 5.0
-    make
-
-If compilation succeeds, `snooper.jar` will be created.
+Run `../../sbt package` (assuming the NetLogo source is two directories up).  If compilation succeeds, `snooper.jar` will be created.
 
 ## Terms of Use
 
